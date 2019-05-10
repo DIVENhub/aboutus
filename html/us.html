@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <style>
+        /* 内部导航栏 */
+        /* .header {
+            width: 100%;
+            height: 120px;
+            background-color: antiquewhite;
+            position: relative;
+            background: url(../images/navLogo.png) no-repeat 40px -1px;
+            background-size: 9%;
+        } */
+        
+        /* .nav {
+            width: 1176px;
+            height: 40px;
+            opacity: 0.6;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto; */
+            /* background: #fff url(../images/nav.jpg) no-repeat;
+            background-position: center;
+        }
+        .nav > ul > li {
+            width: 194px;
+            height: 40px;
+            float: left;
+            border: 2px dashed #ccc;
+            margin: 0 0 -2px -2px;
+        }
+        .nav > ul > li > a {
+            display: block;;
+            text-align: center;
+            line-height: 40px;
+        }
+        .nav > ul > li > a:hover {
+            color: darkslategray;
+            font-size: 20px;
+        } */
+        
+
+        /* 内容部分 */
+        .content {
+            width: 1314px;
+            height: auto;
+            background-color: dimgrey;
+            margin: 0 auto;
+        }
+        .content .boy {
+            float: left;
+            height: 520px;
+            width: 657px;
+            background-color: rgb(216, 240, 194);
+        }
+        .content .gir {
+            height: 520px;
+            width: 657px;
+            background-color: khaki;
+            float: right;
+        }
+        .boy > img, .gir > img {
+            background-color: #fff;
+        }
+        .photo {
+            width: 120px;
+            height: 150px;
+            background-color: aquamarine;
+            /* float: left; */
+        }
+        .left {
+            float: left;
+        }
+        .right {
+            float: right;
+        }
+            /* 文字部分 */
+        .Introduct {
+            width: 365px;
+            height: 77%;
+            background-color: #fff;
+            margin-top: 86px;
+        }
+        .Introduct li {
+            width: 188px;
+            background: khaki;
+            margin-top: 15px;
+            border-radius:5px 5px;
+        }
+        .Introduct li .right {
+            margin-left: 20px;
+        }
+        .Introduct li .left {
+            margin-right: 20px;
+        }
+        .Introduct-l {
+            margin-left: 100px; 
+        }
+        .Introduct-l > ul {
+            float: right;
+            text-align: right;
+            padding-right: 20px;
+        }
+        .Introduct-r {
+            margin-right: 100px;
+            float: right; 
+        }
+        .Introduct-r > ul {
+            float: left;
+            text-align: left;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 内部导航栏 -->
+    <div class="header">
+        <div class="nav">
+            <ul>
+                <li><a href="../index.html" id="">Home</a></li>
+                <li><a href="./us.html" id="">Aboutus</a></li>
+                <li><a href="./timeline.html" id="">Timeline</a></li>
+                <li><a href="./photo.html" id="">Photos</a></li>
+                <li><a href="./foryou.html" id="">Foryou</a></li>
+                <li><a href="./portfolio.html" id="">portfolio</a></li>
+                <li><a href="./passing.html" id="">passing</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 内容 -->
+    <div class="content">
+        <div class="boy">
+            <img src="../images/2.jpg" alt=""  class="photo right">
+            <div class="Introduct Introduct-l">
+                <ul>
+                    <li>
+                        <h4  class="right">name</h4>
+                        <h4 >小明</h4>
+                    </li>
+                    <li><h4>sex</h4></li>
+                    <li><h4>born</h4></li>
+                </ul>
+            </div>
+        </div>
+        <div class="gir">
+            <img src="../images/3.jpg" alt="" class="photo left">
+            <div class="Introduct Introduct-r">
+                    <ul>
+                        <li>
+                            <h4 class="left">name</h4>
+                            <h4 >小小</h4>
+                        </li>
+                        <li><h4>sex</h4></li>
+                        <li><h4>born</h4></li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
